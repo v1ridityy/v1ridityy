@@ -1,49 +1,53 @@
-<html>
-    <body>
-        <header>
-            <title>Flories Jaquel</title>
-            <link rel="stylesheet" href="style.css">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flories Jaquel</title>
+    <link rel="stylesheet" href="Fonts/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#konten 1">About Us</a></li>
+                <li><a href="#konten 2">Products</a></li>
+                <li><a href="#konten 3">Review</a></li>
+                <li><a href="#konten 4">Instagram</a></li>
+                <li><a href="#konten 5">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div>
+            <img src="Pictures/webcover2.png" class="cover-image" alt="Cover Image">
+        </div>
+    </header>
 
-            <nav>
-                <ul>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#konten 1">About Us</a></li>
-                    <li><a href="#konten 2">Products</a></li>
-                    <li><a href="#konten 3">Review</a></li>
-                    <li><a href="#konten 4">Instagram</a></li>
-                    <li><a href="#konten 5">Contact us</a></li>
-                </ul>
-            </nav>
-            <div>
-                <img src="webcover2.png" class="cover-image">
-            </div>
-        </header>
+    <main>
+        <div id="content"> 
+            <article id="konten 1" class="card">
+                <h2>About Us</h2>
+                <img src="Pictures/about_us.png" class="featured-image" alt="About Us">
+            </article>
 
-        <main>
-            <div id="content"> 
-                <article id="konten 1" class="card">
-                    <h2>About Us</h2>
-                    <img src="about us2.png" class="featured-image" alt="konten 1">
-                </article>
+            <article id="konten 2" class="card">
+                <h2>Products</h2>
+                <img src="Pictures/Products.png" class="featured-image" alt="Products">
+            </article>
 
-                <article id="konten 2" class="card">
-                    <h2>Products</h2>
-                    <img src="Products.png" class="featured-image" alt="konten 2">
-                </article>
+            <article id="konten 3" class="card">
+                <h2>Review</h2>
+                <img src="Pictures/Customer Review.png" class="featured-image" alt="Customer Review">
+            </article>
 
-                <article id="konten 3" class="card">
-                    <h2>Review</h2>
-                    <img src="Customer Review.png" class="featured-image" alt="konten 3">
-                </article>
-
-                <article id="konten 4" class="card">
-                    <h2>Instagram</h2>
-                    <img src="Closing.png" class="featured-image" alt="konten 4">
-                </article>
-            </div>
-            <section id="contact" class="container">
-                <article id="konten 5" class="card">
+            <article id="konten 4" class="card">
+                <h2>Instagram</h2>
+                <img src="Pictures/Closing.png" class="featured-image" alt="Instagram">
+            </article>
+        </div>
+        
+        <section id="contact" class="container">
+            <article id="konten 5" class="card">
                 <h2>Contact Us</h2>
                 <form class="contact-form">
                     <input type="text" name="name" placeholder="Your Name" required>
@@ -52,11 +56,11 @@
                     <button type="submit">Send Message</button>
                 </form>
             </article>
-            </section>
-        </main>
-        <footer>
-            <p>Made with &#169;2024. Flories Jaquelle.</p>
-        </footer>
+        </section>
+    </main>
 
-    </body>
+    <footer>
+        <p>Made with &#169;2024. Flories Jaquelle.</p>
+    </footer>
+</body>
 </html>
