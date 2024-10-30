@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
 body {
     font-family: 'Playfair', serif;
     margin: 0;
@@ -33,7 +35,6 @@ nav a:hover {
     border-radius: 25px;
 }
 
-/* Main Styles */
 main {
     padding: 20px;
     overflow: auto;
@@ -110,6 +111,13 @@ main {
 .contact-form button[type="submit"]:hover {
     background: linear-gradient(135deg, #2575fc, #6a11cb);
     transform: translateY(-2px);
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto;    /* Maintain the aspect ratio of images */
+    display: block;  /* Prevent extra space below images */
 }
 
 /* Media Queries for Responsive Design */
